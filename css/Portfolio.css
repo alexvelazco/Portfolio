@@ -1,57 +1,63 @@
-body{
-    background-image: url(Imagenes/Fondo.jpg);
-}
-h1{
+body {
+    background-image: url(/imgs/Fondo.jpg);
+  }
+  h1 {
     font-family: Cambria, serif;
     text-align: center;
-    color:slategray;
+    color: slategray;
     background-color: rgb(230, 162, 86);
     border: 2px solid black;
     border-radius: 5px;
-}
-h2{
+  }
+  h2 {
     font-family: Cambria, serif;
     text-align: center;
     color: rgb(88, 157, 235);
     background-color: rgb(238, 229, 98);
     border: 2px solid black;
     border-radius: 5px;
-}
-p{
+  }
+  p {
     color: black;
     background-color: rgb(161, 236, 236);
-    border:2px solid brown;
-    border-radius:10px;
-    padding:9px;
-}
-.PF{
+    border: 2px solid brown;
+    border-radius: 10px;
+    padding: 9px;
+  }
+  .PF {
     text-align: center;
     color: black;
     background-color: rgb(182, 158, 240);
-    border:1px solid rgb(0, 0, 0);
-    border-radius:10px;
-    padding:9px;
-}
-#img1{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 9px;
+  }
+  img {
+    display:inline;
+    width: 100%;
+    max-width: 500px;
+    border: 3px solid rgba(0, 0, 0, 0.45);
+    border-radius: 20px; 
+  }
+  #img1 {
     width: 1000px;
-    border: 3px solid rgba(0, 0, 0, 0.450);
+    max-width: none;
+    min-width: 500px;
+    border: 3px solid rgba(0, 0, 0, 0.45);
     border-radius: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
-}
-img{
-    width: 400px;
-    border: 3px solid rgba(0, 0, 0, 0.450);
-    border-radius: 20px;
-}
-#img2{
+  }
+  #img2 {
     width: 1000px;
-    border: 3px solid rgba(0, 0, 0, 0.450);
+    max-width: none;
+    min-width: 500px;
+    border: 3px solid rgba(0, 0, 0, 0.45);
     border-radius: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-}
+  }
